@@ -1,0 +1,40 @@
+body {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.hero {
+
+    height: 80vh;
+    background-image: url('../Images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero h2 {
+
+    position: relative;
+    top: 35%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bg-primary {
+
+    background-color: #5D8D3F !important;
+}
+
+
+.footer {
+
+padding: 2rem;
+}
