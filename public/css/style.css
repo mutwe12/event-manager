@@ -3,9 +3,15 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #B5B9BA !important;
 
 }
 
+
+a {
+
+    font-size: 1.4rem !important;
+}
 
 .hero {
 
@@ -20,6 +26,11 @@ body {
 
 }
 
+.service {
+
+    
+}
+
 .hero h2 {
 
     position: relative;
@@ -27,14 +38,26 @@ body {
     font-weight: bold;
     color: #fff;
 }
+.hero p {
+    font-weight: 700;
+    color: #000;
+    font-size: 1.5rem;
+    z-index: 500;
+}
 
 .bg-primary {
 
-    background-color: #5D8D3F !important;
+    background-color: #164A2F !important;   
 }
 
 
 .footer {
 
 padding: 2rem;
+}
+
+.social-icons a {
+    color: #0e0000;
+    font-size: 1rem;
+    margin: 1rem;
 }
