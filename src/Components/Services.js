@@ -1,13 +1,15 @@
 import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
+import cooperte_hours from './cooperte_hours.jpeg'
 import A from './a.jpeg'
 import B from './b.jpeg'
 import C from './c.jpeg'
 import D from './d.jpeg'
 import E from './e.jpeg'
 import F from './f.jpeg'
-import G from './g.jpeg'
+import g from './g.jpeg'
+import birth_day from './birth_day.jpeg'
 
 function Services() {
   return (
@@ -19,7 +21,7 @@ function Services() {
         <div className='row'>
           <div className='col-md-6'>
             <div className='card'>
-              <img src={A} className='card-img-top' alt='Event Planning' />
+              <img src={g} className='card-img-top' alt='Event Planning' />
               <div className='card-body'>
                 <h5 className='card-title'>Wedding Engagement Plans</h5>
                 <p className='card-text'>
@@ -37,7 +39,7 @@ function Services() {
              
             </div>
             <div className='card mb-2'>
-              <img src={B} className='card-img-top' alt='Vendor Management' />
+              <img src={cooperte_hours} className='card-img-top' alt='Vendor Management' />
               <div className='card-body'>
                 <h5 className='card-title'> Corporate Happy Hours:</h5>
                 <p className='card-text'>
@@ -70,7 +72,7 @@ function Services() {
           </div>
           <div className='col-md-6'>
             <div className='card'>
-              <img src={D} className='card-img-top' alt='Event Coordination' />
+              <img src={birth_day } className='card-img-top' alt='Event Coordination' />
               <div className='card-body'>
                 <h5 className='card-title'>Graduation Party Planning:
                 </h5>
@@ -99,7 +101,10 @@ function Services() {
                 <h5 className='card-title'>Wedding Planning</h5>
                 <p className='card-text'>
                   Understand the Couple's Vision:
-                  Meet with the couple to understand their vision, preferences, and expectations for the wedding. Discuss themes, color schemes, desired ambiance, and any specific elements they wish to incorporate.
+                  Meet with the couple to understand their vision, 
+                  preferences, and expectations for the wedding. 
+                  Discuss themes, color schemes, desired ambiance, 
+                  and any specific elements they wish to incorporate.
 
                 </p>
                 <a class="card-link btn btn-primary">Read more</a>

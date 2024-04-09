@@ -21,7 +21,9 @@ const About = () => {
             <p className="card-text">{contactInfo.location}</p>
             <p className="card-text">Email: {contactInfo.email}</p> {/* Updated card text for better clarity */}
             <p className="card-text">Tel: {contactInfo.tel}</p> {/* Updated card text for better clarity */}
+
           </div>
+          
         </div>
       </div>
 

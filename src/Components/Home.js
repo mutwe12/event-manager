@@ -11,7 +11,8 @@ import E from './e.jpeg'
 import F from './f.jpeg'
 import G from './g.jpeg'
 import bg2 from './bg2.jpg'
-
+import cooperte_hours from'./cooperte_hours.jpeg'
+import birth_day from './birth_day.jpeg'
 
 
 
@@ -44,7 +45,7 @@ const Home = () => {
              
             </div>
             <div className='card mb-2'>
-              <img src={B} className='card-img-top' alt='Vendor Management' />
+              <img src={cooperte_hours} className='card-img-top' alt='Vendor Management' />
               <div className='card-body'>
                 <h5 className='card-title'> Corporate Happy Hours:</h5>
                 <p className='card-text'>
@@ -77,7 +78,7 @@ const Home = () => {
           </div>
           <div className='col-md-6'>
             <div className='card'>
-              <img src={D} className='card-img-top' alt='Event Coordination' />
+              <img src={birth_day} className='card-img-top' alt='Event Coordination' />
               <div className='card-body'>
                 <h5 className='card-title'>Graduation Party Planning:
                 </h5>
